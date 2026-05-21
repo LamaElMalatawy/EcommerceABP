@@ -1,0 +1,23 @@
+<Solution>
+    <Configurations>
+        <Platform Name="Any CPU" />
+    </Configurations>
+    <Folder Name="/src/">
+        <Project Path="src/EcommerceABP.Domain/EcommerceABP.Domain.csproj" />
+        <Project Path="src/EcommerceABP.Application/EcommerceABP.Application.csproj" />
+        <Project Path="src/EcommerceABP.EntityFrameworkCore/EcommerceABP.EntityFrameworkCore.csproj" />
+        <Project Path="src/EcommerceABP.Domain.Shared/EcommerceABP.Domain.Shared.csproj" />
+        <Project Path="src/EcommerceABP.Application.Contracts/EcommerceABP.Application.Contracts.csproj" />
+        <Project Path="src/EcommerceABP.HttpApi/EcommerceABP.HttpApi.csproj" />
+        <Project Path="src/EcommerceABP.HttpApi.Client/EcommerceABP.HttpApi.Client.csproj" />
+        <Project Path="src/EcommerceABP.HttpApi.Host/EcommerceABP.HttpApi.Host.csproj" />
+        <Project Path="src/EcommerceABP.DbMigrator/EcommerceABP.DbMigrator.csproj" />
+    </Folder>
+    <Folder Name="/test/">
+        <Project Path="test/EcommerceABP.Application.Tests/EcommerceABP.Application.Tests.csproj" />
+        <Project Path="test/EcommerceABP.EntityFrameworkCore.Tests/EcommerceABP.EntityFrameworkCore.Tests.csproj" />
+        <Project Path="test/EcommerceABP.TestBase/EcommerceABP.TestBase.csproj" />
+        <Project Path="test/EcommerceABP.Domain.Tests/EcommerceABP.Domain.Tests.csproj" />
+        <Project Path="test/EcommerceABP.HttpApi.Client.ConsoleTestApp/EcommerceABP.HttpApi.Client.ConsoleTestApp.csproj" />
+    </Folder>
+</Solution>
