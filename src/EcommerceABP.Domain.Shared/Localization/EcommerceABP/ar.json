@@ -37,6 +37,18 @@
     "Unspecified": "نظام",
     "SeeAllUsers": "رؤية كافة المستخدمين",
     "TakePhoto": "تصوير",
-    "ChoosePhoto": "اختر صورة"
+    "ChoosePhoto": "اختر صورة",
+    "Products": "منتجات",
+    "Categories": "فئات",
+    "Permission:Products:CreateProduct": "إنشاء المنتج",
+    "Permission:Products:UpdateProduct": "تعديل المنتج",
+    "Permission:Products:DeleteProduct": "حذف المنتج",
+    "Permission:Products:ViewProduct": "عرض المنتج",
+    "Permission:Categories:CreateCategory": "إنشاء الفئة",
+    "Permission:Categories: UpdateCategory": "تعديل الفئة",
+    "Permission:Categories:DeleteCategory": "حذف الفئة",
+    "Permission:Categories:ViewCategory": "عرض الفئة",
+    "Permission:Orders:ViewOrder": "عرض الطلب",
+
   }
 }

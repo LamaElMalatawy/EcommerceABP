@@ -4,6 +4,16 @@
     "AppName": "EcommerceABP",
     "Menu:Home": "Home",
     "LongWelcomeMessage": "Welcome to the application. This is a startup project based on the ABP framework. For more information visit",
-    "Welcome": "Welcome"
+    "Welcome": "Welcome",
+    "Products": "Products",
+    "Categories": "Categories",
+    "Permission:Products:CreateProduct": "Create Product",
+    "Permission:Products:EditProduct": "Update Product",
+    "Permission:Products:DeleteProduct": "Delete Product",
+    "Permission:Products:ViewProduct": "View Product",
+    "Permission:Categories:CreateCategory": "Create Category",
+    "Permission:Categories: UpdateCategory": "Update Category",
+    "Permission:Categories:DeleteCategory": "Delete Category",
+    "Permission:Categories:ViewCategory": "View Category"
   }
 }
