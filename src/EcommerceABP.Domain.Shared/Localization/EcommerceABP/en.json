@@ -12,8 +12,25 @@
     "Permission:Products:DeleteProduct": "Delete Product",
     "Permission:Products:ViewProduct": "View Product",
     "Permission:Categories:CreateCategory": "Create Category",
-    "Permission:Categories: UpdateCategory": "Update Category",
+    "Permission:Categories:UpdateCategory": "Update Category",
     "Permission:Categories:DeleteCategory": "Delete Category",
-    "Permission:Categories:ViewCategory": "View Category"
+    "Permission:Categories:ViewCategory": "View Category",
+
+    "Ecommerce:00001": "Product price must be greater than zero.",
+    "Ecommerce:00002": "A product stock cant be less than zero.",
+    "Ecommerce:00003": "A product can't belong to more than 1 category.",
+    "Ecommerce:00004": "Product was not found",
+    "Ecommerce:00005": "Product name must be unique.",
+    "Ecommerce:00006": "Product must belong to a category.",
+    
+    "Ecommerce:00007": "Category was not found",
+    "Ecommerce:00008": "Category cant be its own parent",
+    "Ecommerce:00009": "Category name must be unique.",
+    
+    "Ecommerce:00010": "Order was not found",
+    "Ecommerce:00011": "Order must have at least one product.",
+    "Ecommerce:00012": "Order quantity must be positive."
+
+
   }
 }
