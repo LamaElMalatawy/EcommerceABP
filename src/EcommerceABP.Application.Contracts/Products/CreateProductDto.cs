@@ -7,7 +7,7 @@ using Volo.Abp.Application.Dtos;
 
 namespace EcommerceABP.Products
 {
-    public class CreateProductDto : AuditedEntityDto<Guid>
+    public class CreateProductDto
     {
         [Required, MaxLength(ProductConsts.MaxNameLength)]
         public string NameAr { get; set; }

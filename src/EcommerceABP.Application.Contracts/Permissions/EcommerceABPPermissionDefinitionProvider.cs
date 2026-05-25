@@ -12,6 +12,7 @@ public class EcommerceABPPermissionDefinitionProvider : PermissionDefinitionProv
         var myGroup = context.AddGroup(EcommerceABPPermissions.MainGroupName);
         var productGroup = context.AddGroup(EcommerceABPPermissions.ProductGroupName, L("Products"));
         var categoryGroup = context.AddGroup(EcommerceABPPermissions.CategoryGroupName, L("Categories"));
+        var orderGroup = context.AddGroup(EcommerceABPPermissions.OrderGroupName, L("Orders"));
 
         productGroup.AddPermission(EcommerceABPPermissions.CreateProductPermission, L("Permission:Products:CreateProduct"));
         productGroup.AddPermission(EcommerceABPPermissions.UpdateProductPermission, L("Permission:Products:UpdateProduct"));
@@ -22,6 +23,11 @@ public class EcommerceABPPermissionDefinitionProvider : PermissionDefinitionProv
         categoryGroup.AddPermission(EcommerceABPPermissions.UpdateCategoryPermission, L("Permission:Categories:UpdateCategory"));
         categoryGroup.AddPermission(EcommerceABPPermissions.DeleteCategoryPermission, L("Permission:Categories:DeleteCategory"));
         categoryGroup.AddPermission(EcommerceABPPermissions.ViewCategoryPermission, L("Permission:Categories:ViewCategory"));
+
+        orderGroup.AddPermission(EcommerceABPPermissions.CreateOrderPermission, L("Permission:Orders:CreateOrder"));
+        orderGroup.AddPermission(EcommerceABPPermissions.ViewOrderPermission, L("Permission:Orders:ViewOrder"));
+
+
 
     }
 

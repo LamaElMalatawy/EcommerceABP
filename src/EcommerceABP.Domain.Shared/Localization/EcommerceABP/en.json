@@ -15,6 +15,8 @@
     "Permission:Categories:UpdateCategory": "Update Category",
     "Permission:Categories:DeleteCategory": "Delete Category",
     "Permission:Categories:ViewCategory": "View Category",
+    "Permission:Orders:CreateOrder": "Create Order",
+    "Permission:Orders:ViewOrder": "View Order",
 
     "Ecommerce:00001": "Product price must be greater than zero.",
     "Ecommerce:00002": "A product stock cant be less than zero.",

@@ -95,7 +95,16 @@ namespace EcommerceABP.Products
             return this;
         }
 
-
-
+        public Product Update(String NameAr, string NameEn, string DescriptionAr, string DescriptionEn, decimal Price, int StockQuantity, Guid CategoryId)
+        {
+            SetNameAr(NameAr);
+            SetNameEn(NameEn);
+            SetDescriptionAr(DescriptionAr);
+            SetDescriptionEn(DescriptionEn);
+            SetPrice(Price);
+            SetStockQuantity(StockQuantity);
+            SetCategory(CategoryId);
+            return this;
+        }
     }
 }

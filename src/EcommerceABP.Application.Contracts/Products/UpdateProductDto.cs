@@ -8,7 +8,7 @@ using Volo.Abp.Application.Dtos;
 
 namespace EcommerceABP.Products
 {
-    public class UpdateProductDto : AuditedEntityDto<Guid>
+    public class UpdateProductDto
     {
 
         [MaxLength(ProductConsts.MaxNameLength)]

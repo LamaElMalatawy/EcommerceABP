@@ -16,6 +16,10 @@ public static class EcommerceABPPermissions
     public const string DeleteCategoryPermission = CategoryGroupName + ".Delete";
     public const string ViewCategoryPermission = CategoryGroupName + ".View";
 
+    public const string OrderGroupName = MainGroupName + ".Orders";
+    public const string CreateOrderPermission = OrderGroupName + ".Create";
+    public const string ViewOrderPermission = OrderGroupName + ".View";
+
 
     //Add your own permission names. Example:
     //public const string MyPermission1 = GroupName + ".MyPermission1";

@@ -16,6 +16,11 @@ namespace EcommerceABP.Orders
         public Product Product { get; set; }
 
         public decimal TotalPrice => UnitPrice * Quantity;
+
+        public OrderItem()
+        {
+
+        }
         public OrderItem(Guid id, Guid orderId, Guid productId, decimal unitPrice, int quantity) : base(id)
         {
             OrderId = orderId;

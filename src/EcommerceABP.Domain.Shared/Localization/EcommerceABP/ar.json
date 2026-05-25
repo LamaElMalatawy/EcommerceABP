@@ -49,6 +49,8 @@
     "Permission:Categories:DeleteCategory": "حذف الفئة",
     "Permission:Categories:ViewCategory": "عرض الفئة",
     "Permission:Orders:ViewOrder": "عرض الطلب",
+    "Permission:Orders:CreateOrder": "إنشاء الطلب",
+    "Permission:Orders:DeleteOrder": "حذف الطلب",
 
     "Ecommerce:00001": "يجب ان يكون سعر المنتج اكبر من الصفر",
     "Ecommerce:00002": "لا يمكن ان يكون مخزون المنتج اقل من الصفر",

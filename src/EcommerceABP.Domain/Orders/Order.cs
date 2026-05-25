@@ -14,6 +14,19 @@ namespace EcommerceABP.Orders
         public decimal TotalPrice { get; private set; }
         public OrderStatus Status { get; private set; }
 
+        public Order()
+        {
+
+        }
+
+        public Order(Guid id, Guid customerId) : base(id)
+        {
+            CustomerId = customerId;
+            OrderItems = new List<OrderItem>();
+            TotalPrice = 0;
+            Status = OrderStatus.Processing;
+        }
+
         public void AddOrderItem(Guid productId, decimal price, int quantity)
         {
             if(quantity<=0)
@@ -24,7 +37,6 @@ namespace EcommerceABP.Orders
             else
                 isExistingItem.increaseQuantity(quantity);
 
-            var orderItem = new OrderItem(Guid.NewGuid(), Id, productId, price, quantity);
             CalculateTotalPrice();
         }  
         private void CalculateTotalPrice()

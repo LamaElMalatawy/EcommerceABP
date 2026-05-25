@@ -29,7 +29,7 @@ namespace EcommerceABP.Categories
             SetParentCategory(parentCategoryId);
             Children = new List<Category>();
             Products = new List<Product>();
-            
+
 
         }
 
@@ -51,11 +51,19 @@ namespace EcommerceABP.Categories
 
         private Category SetParentCategory(Guid? parentCategoryId)
         {
-            if(parentCategoryId == Id)
+            if (parentCategoryId == Id)
+                throw new BusinessException(EcommerceABPDomainErrorCodes.CategoryCannotBeItsOwnParent).WithData("CategoryId", Id);
 
             ParentCategoryId = parentCategoryId;
             return this;
         }
 
+        public Category Update(string nameEn, string nameAr, Guid? parentCategoryId)
+        {
+            SetNameAr(nameAr);
+            SetNameEn(nameEn);
+            SetParentCategory(parentCategoryId);
+            return this;
+        }
     }
 }

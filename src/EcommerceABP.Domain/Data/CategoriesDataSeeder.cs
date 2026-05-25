@@ -27,7 +27,7 @@ namespace EcommerceABP.Data
             {
                 new Category(
                     _guidGenerator.Create(),
-                    nameAr: "الكترونيا_guidGeneraterlت",
+                    nameAr: "الكترونيات",
                     nameEn: "Electronics"
                     ),
                 new Category(
