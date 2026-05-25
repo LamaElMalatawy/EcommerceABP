@@ -22,6 +22,7 @@
     "Ecommerce:00004": "Product was not found",
     "Ecommerce:00005": "Product name must be unique.",
     "Ecommerce:00006": "Product must belong to a category.",
+    "Ecommerce:00013": "Product's price can't be negative",
     
     "Ecommerce:00007": "Category was not found",
     "Ecommerce:00008": "Category cant be its own parent",

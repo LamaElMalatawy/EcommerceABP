@@ -8,7 +8,8 @@ public static class EcommerceABPDomainErrorCodes
     public const string ProductNotFound = "Ecommerce:00004";
     public const string ProductNameMustBeUnique = "Ecommerce:00005";
     public const string ProductMustBelongToCategory = "Ecommerce:00006";
-   
+    public const string ProductPriceCannotBeNegative = "Ecommerce:00013";
+
     public const string CategoryNotFound = "Ecommerce:00007";
     public const string CategoryCannotBeItsOwnParent = "Ecommerce:00008";
     public const string CategoryNameMustBeUnique = "Ecommerce:00009";
