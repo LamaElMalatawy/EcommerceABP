@@ -17,6 +17,7 @@ using Volo.Abp.TenantManagement.EntityFrameworkCore;
 using EcommerceABP.Configurations;
 using EcommerceABP.Products;
 using EcommerceABP.Categories;
+using EcommerceABP.Orders;
 
 namespace EcommerceABP.EntityFrameworkCore;
 
@@ -62,6 +63,8 @@ public class EcommerceABPDbContext :
 
     public DbSet<Product> Products { get; set; }
     public DbSet<Category> Categories { get; set; }
+    public DbSet<Order> Orders { get; set; }
+    public DbSet<OrderItem> OrderItems { get; set; }
 
     public EcommerceABPDbContext(DbContextOptions<EcommerceABPDbContext> options)
         : base(options)
@@ -87,6 +90,8 @@ public class EcommerceABPDbContext :
 
         builder.ApplyConfiguration(new ProductConfiguration());
         builder.ApplyConfiguration(new CategoryConfiguration());
+        builder.ApplyConfiguration(new OrderConfiguration());
+        builder.ApplyConfiguration(new OrderItemConfiguration());
 
         /* Configure your own tables/entities inside here */
 
